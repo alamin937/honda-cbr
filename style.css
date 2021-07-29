@@ -18,3 +18,27 @@
 .margin{
     margin-top:80px;
 }
+@media only screen and (max-width: 768px) {
+    .width-img img{
+        width:300px;
+        height:200px;
+    }
+    .para{
+        width:300px;
+    }
+    .client-area{
+        width:400px;
+    }
+    .question-area{
+        width:400px;
+    }
+    .slider{
+        width:550px;
+    }
+    .scrollspy-area{
+        width:450px;
+    }
+    .fetured{
+        width:267px;
+    }
+  }

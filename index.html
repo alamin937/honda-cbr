@@ -11,11 +11,11 @@
 </head>
 <body>
     <!-- header area -->
-    <header style="background-color: #264653;">
+    <header class="header-width" style="background-color: #264653;">
         <section class="container">
             <div class="row d-flex align-items-center p-2">
                 <div class="col-lg-6 col-md-12 col-sm-12">
-                    <p class="mb-0" style="color:white;">Computer-controlled digital transistorized with electronic advance</p>
+                    <p class="mb-0 para" style="color:white;">Computer-controlled digital transistorized with electronic advance</p>
                     <h2 class="fw-bolder pb-2" style="color:white;">Honda CBR 300R</h2>
                     <p class="p-width" style="color:white;">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     <!-- modal -->
@@ -43,7 +43,7 @@
     </div>
   </div>
 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="col-lg-6 col-md-12 col-sm-12 width-img">
                     <img src="images/header-bike.png" alt="" width="500px" height="400px">
                 </div>
             </div>
@@ -52,8 +52,8 @@
     <!-- fetured area -->
     <main>
         <section class="container my-5">
-            <h2 class="text-center fw-bolder">Fetured Bikes 2021</h2>
-            <p class="text-center fw-bolder" style="color:#E76F51;">Best bike collection</p>
+            <h2 class="text-center fw-bolder fetured">Fetured Bikes 2021</h2>
+            <p class="text-center fw-bolder fetured" style="color:#E76F51;">Best bike collection</p>
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-4 col-md-12 grey-scale">
                     <img src="images/feature-bike.jpg" alt="" width="288px" height="243px">
@@ -68,10 +68,10 @@
         </section>
         <!-- client section -->
        <section class="container margin">
-           <h2 class="text-center fw-bolder mb-4">Happy <span style="color:#E76F51;">Clinet Says</span></h2>
+           <h2 class="text-center fw-bolder mb-4 fetured">Happy <span style="color:#E76F51;">Clinet Says</span></h2>
             <div class="row g-4">
               <div class="col-lg-4">
-                <div class="p-3 border border-2 pic-align">
+                <div class="p-3 border border-2 pic-align client-area">
                     <img src="images/user-1.png" alt="" width="149px" height="149px">
                     <p class="w-75 mx-auto">Read about what makes our Cycling Trips so special. A selection of just a few of our reviews from clients from around the world. All enjoying the benefits</p>
                     <div class="text-center" style="color:red;">
@@ -86,7 +86,7 @@
                 </div>
               </div>
               <div class="col-lg-4">
-                <div class="p-3 border border-2 pic-align">
+                <div class="p-3 border border-2 pic-align client-area">
                     <img src="images/user-2.png" alt="" width="149px" height="149px">
                     <p class="w-75 mx-auto">Read about what makes our Cycling Trips so special. A selection of just a few of our reviews from clients from around the world. All enjoying the benefits</p>
                     <div class="text-center" style="color:red;">
@@ -101,7 +101,7 @@
                 </div>
               </div>
               <div class="col-lg-4">
-                <div class="p-3 border border-2 radius pic-align">
+                <div class="p-3 border border-2 radius pic-align client-area">
                     <img src="images/user-3.jpg" alt="" width="149px" height="149px">
                     <p class="w-75 mx-auto">Read about what makes our Cycling Trips so special. A selection of just a few of our reviews from clients from around the world. All enjoying the benefits</p>
                     <div class="text-center" style="color:red;">
@@ -119,13 +119,13 @@
         </section>
         <!-- asked question area -->
         <section class="container margin p-4">
-            <h2 class="text-center fw-bolder mb-4">Frequently Asked <span style="color:#E76F51;">Question</span></h2>
+            <h2 class="text-center fw-bolder mb-4 fetured">Frequently Asked <span style="color:#E76F51;">Question</span></h2>
            <div class="row">
                <div class="col-lg-6">
                     <img src="images/faq.png" alt="" width="424px" height="397px">
                </div>
                <div class="col-lg-6">
-                <div class="accordion" id="accordionExample">
+                <div class="accordion question-area" id="accordionExample">
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -182,8 +182,10 @@
         </section>
         <!-- bonus part one -->
         <section class="container margin">
-            <h2 class="text-center fw-bolder mb-4">Bike <span style="color:#E76F51;">Images Slider</span></h2>
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="text-center fw-bolder mb-4 fetured">Bike <span style="color:#E76F51;">Images Slider</span></h2>
+            <div id="carouselExampleControls" class="carousel slide slider" data-bs-ride="carousel">
                 <div class="carousel-inner mx-auto">
                   <div class="carousel-item active">
                     <img src="images/bike-1.png" class="d-block w-100" alt="..." height="550px">
@@ -204,8 +206,53 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
+                </div>
+            </div>
+        </section>
+        <!-- bonus part two -->
+        <section class="container margin">
+            <h2 class="text-center fw-bolder mb-4 fetured">Scrollspy <span style="color:#E76F51;">Bike Price Details</span></h2>
+            <nav id="navbar-example2" class="navbar navbar-light bg-light px-3 scrollspy-area">
+                <a class="navbar-brand fw-bolder" href="#">Bikes</a>
+                <ul class="nav nav-pills">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading1">First</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading2">Second</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                      <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+              <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+                <h4 id="scrollspyHeading1">Bajaj Pulsar 150 DTS-i</h4>
+                <p>Rates</p>
+                <p>Rs. 98067</p>
+                <h4 id="scrollspyHeading2">Royal Enfield Classic 350</h4>
+                <p>Rates</p>
+                <p>Rs. 98067</p>
+                <h4 id="scrollspyHeading3">Hero Passion Pro BS6</h4>
+                <p>Rates</p>
+                <p>Rs. 98067</p>
+                <h4 id="scrollspyHeading4">KTM RC 200</h4>
+                <p>Rates</p>
+                <p>Rs. 98067</p>
+              </div>
         </section>
     </main>
+    <br>
+    <br>
+    <br>
+    <br>
+
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
