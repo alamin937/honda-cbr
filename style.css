@@ -1,0 +1,20 @@
+.background-color{
+    background-color: 
+    #E76F51;
+}
+.grey-scale img{
+    filter:grayscale(100%);
+}
+.p-width{
+    width:369px;
+    text-align: justify;
+}
+.radius img{
+    border-radius: 50%;
+}
+.pic-align img{
+    margin-left:80px;
+}
+.margin{
+    margin-top:80px;
+}
